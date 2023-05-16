@@ -1,0 +1,230 @@
+:root {
+    --inicio-color: #ece8bcce;
+    --Primario-color: #ec8e8e;
+    --Secundario-color: #460404;
+}
+
+h1 {
+    color: rgb(4, 25, 32);
+}
+
+ul li {
+    color: blueviolet
+}
+
+.Contenedor {
+    margin: 0;
+    max-width: 1024px;
+    padding: 0, 20;
+    overflow: auto;
+}
+
+.Texto-btn {
+    font-size: 1em;
+
+}
+
+#MostrarSlider-Inicio .Slider-banner {
+    background-color: #abababce;
+    height: 50%;
+    width: 45%;
+    font-family: 'Bookman Old Style';
+    margin-top: 20px;
+    padding-top: 40px;
+    text-align: center;
+    opacity: 100;
+    color: #0a0b0b;
+}
+.ofertas{
+    font-family: 'arial';
+    float: right;
+    margin-top: 20px;
+    width: 250px;
+    height: 500px;
+    background-color: rgba(106, 103, 103, 0.3);
+}
+.bodyy{
+    font-family: 'Bookman Old Style';
+    margin-top: 20px;
+    width: 800px;
+    height: 500px;
+    background-color: rgba(186, 176, 176, 0.3);
+}
+.tutu{
+    float: left;
+/*width: 20px;
+    height: 20px;
+    padding: 10px;
+    left: 700px;*/
+}
+
+#MostrarSlider-Inicio h1 {
+    padding: 10px;
+    text-align: center;
+    color: rgb(2, 2, 2);
+}
+
+#navbar {
+    overflow: auto;
+    background-color: rgba(255, 255, 255, 0.3);
+    opacity: 2.5;
+}
+
+#navbar .logo {
+    float: left;
+    padding-top: 20px;
+    max-width: 60px;
+    max-height: 80px;
+}
+
+#navbar ul {
+    List-style: none;
+    text-align: left;
+    padding: 0;
+}
+
+#navbar ul li {
+    float: left;
+}
+
+#navbar ul li a {
+    padding: 20px;
+    text-align: center;
+    display: block;
+    text-decoration: none;
+}
+
+#navbar ul li a:hover,
+#navbar ulli a.seleccionado {
+    background-color: cornsilk;
+    color: darkcyan;
+    cursor: pointer;
+}
+
+body {
+    background-size: cover;
+    background-repeat: no-repeat;
+    margin: 0;
+    padding:  0;
+    text-align: center;
+   /* letter-spacing: 0.1em;
+    margin-bottom: 1em;*/
+   /* min-height: 100vh;  
+    justify-content: center;
+    align-items: center;*/  
+    display: grid;
+    min-height: 100vh;
+    grid-template-rows: auto 1fr auto;
+}
+
+
+
+/*footer {
+    position: fixed;
+    left: 0px;
+    bottom: 0;
+    height: 90px;
+    width: 100%;
+    background-color: rgb(77, 29, 29);
+}*/
+.pie{
+   /* position: fixed;
+    left: 0px;
+    bottom: 0;
+    height: 72px;
+    width: 100%;*/
+    padding: 0.5em 0;
+    text-align: center;
+   /* margin-top: auto;*/
+    background-color: rgba(255, 255, 255, 0.3);
+}
+
+.img {
+    width: 20px;
+}
+.logo2{
+    display: flex;
+    align-items: center;
+    gap: 20px;
+    width: 60px;
+    /*height: 60px;*/  
+}
+.redes{
+    font-size: 20px;
+}
+.redes ul li{
+    display: inline-block;
+}
+.redes ul:hover a{
+filter:blur(2px);
+}
+.redes ul li a:hover{
+    transform: translateY(-3px) scale(1.05);
+    box-shadow: 0 5px 5px 0px rgba(0, 0, 0, .4);
+    filter:none;
+}
+.fb{
+    background: rgb(0, 68, 255);
+    padding: 7px;
+    border-radius:50px;
+    color: white;
+}
+.you{
+    background: rgb(255, 30, 0);
+    padding: 7px;
+    border-radius:50px;
+    color: white;
+}
+.twi{
+    background: rgb(0, 89, 255);
+    padding: 7px;
+    border-radius:50px;
+    color: white;
+}
+.insta{
+    background: rgb(255, 0, 234);
+    padding: 8px;
+    border-radius:50px;
+    color: white;
+}
+.edu{
+    background: rgb(0, 247, 255);
+    padding: 8px;
+    border-radius:50px;
+    color: white;
+}
+.header2{
+    display:flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 8px;
+}
+.logotipo{
+    font-size: 18px;
+}
+.section{
+    display:flex;
+    justify-content:space-evenly;
+}
+.section div{
+    display: flex;
+    flex-direction: column;
+}
+div h2{
+    color:rgb(14, 11, 10);
+    padding: 8px 0;
+
+}
+a{
+    color:aqua;
+    text-decoration: none;
+    padding: 5;
+}
+diselo{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 30px;
+}
+
+
